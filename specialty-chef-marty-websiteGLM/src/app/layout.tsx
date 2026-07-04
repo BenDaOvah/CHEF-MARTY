@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "Specialty Chef Marty - Cooking Videos & Recipes",
@@ -41,7 +40,6 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
-        <Toaster />
       </body>
     </html>
   );
