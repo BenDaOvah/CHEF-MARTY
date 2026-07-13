@@ -22,7 +22,7 @@ export default function Home() {
               className="text-5xl md:text-6xl font-bold mb-4"
               style={{ fontFamily: "Playfair Display" }}
             >
-              Let&apos;s Specialty Chef Marty
+              Specialty Chef Marty
             </h1>
             <p className="text-lg md:text-xl mb-8 opacity-95">
               Step-by-step recipes, baking tips, and culinary adventures for the home chef
