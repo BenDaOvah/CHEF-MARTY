@@ -8,8 +8,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[500px] md:h-[600px] overflow-hidden">
         <img
-          src="https://d2xsxph8kpxj0f.cloudfront.net/310519663243890751/YyMZfsz7vcD9v9ZWwSRhW5/hero-chef-cooking-ie8eXAfkMGSPRAvK5GDu3F.webp"
-          alt="Chef Marty cooking"
+          src="/hero.jpg"
+          alt="Specialty Chef Marty"
           className="absolute inset-0 w-full h-full object-cover"
         />
         {/* Gradient Overlay */}
@@ -22,7 +22,7 @@ export default function Home() {
               className="text-5xl md:text-6xl font-bold mb-4"
               style={{ fontFamily: "Playfair Display" }}
             >
-              Let&apos;s Cook Something Special
+              Let&apos;s Specialty Chef Marty
             </h1>
             <p className="text-lg md:text-xl mb-8 opacity-95">
               Step-by-step recipes, baking tips, and culinary adventures for the home chef
