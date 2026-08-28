@@ -18,15 +18,6 @@ export default function Home() {
         {/* Hero Content */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4 max-w-2xl">
-            <h1
-              className="text-5xl md:text-6xl font-bold mb-4"
-              style={{ fontFamily: "Playfair Display" }}
-            >
-              Specialty Chef Marty
-            </h1>
-            <p className="text-lg md:text-xl mb-8 opacity-95">
-              Step-by-step recipes, baking tips, and culinary adventures for the home chef
-            </p>
             <Link href="/recipes">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                 Explore Recipes <ArrowRight className="ml-2" size={20} />
