@@ -12,6 +12,7 @@ export default function Home() {
           alt="Specialty Chef Marty"
           className="absolute inset-0 w-full h-full object-cover"
         />
+
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
 
@@ -19,8 +20,12 @@ export default function Home() {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4 max-w-2xl">
             <Link href="/recipes">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                Explore Recipes <ArrowRight className="ml-2" size={20} />
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground"
+              >
+                Explore Recipes
+                <ArrowRight className="ml-2" size={20} />
               </Button>
             </Link>
           </div>
@@ -50,7 +55,9 @@ export default function Home() {
                 Curry Shrimp Pasta
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                A delicious and aromatic curry shrimp pasta that combines fresh ingredients with bold spices. Perfect for a weeknight dinner or special occasion.
+                A delicious and aromatic curry shrimp pasta that combines fresh
+                ingredients with bold spices. Perfect for a weeknight dinner or
+                special occasion.
               </p>
               <ul className="space-y-3 mb-8 text-foreground">
                 <li className="flex items-center gap-3">
@@ -68,7 +75,8 @@ export default function Home() {
               </ul>
               <Link href="/recipes">
                 <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                  View Full Recipe <ArrowRight className="ml-2" size={18} />
+                  View Full Recipe
+                  <ArrowRight className="ml-2" size={18} />
                 </Button>
               </Link>
             </div>
@@ -90,12 +98,16 @@ export default function Home() {
                 Pecan Cinnamon Rolls
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Learn how to make moist, fluffy pecan cinnamon rolls from scratch. Chef Marty walks you through each step to ensure perfect results every time.
+                Learn how to make moist, fluffy pecan cinnamon rolls from
+                scratch. Chef Marty walks you through each step to ensure
+                perfect results every time.
               </p>
               <div className="flex gap-4 mb-8">
                 <div className="text-center">
                   <p className="text-3xl font-bold text-primary">9:35</p>
-                  <p className="text-sm text-muted-foreground">Video Length</p>
+                  <p className="text-sm text-muted-foreground">
+                    Video Length
+                  </p>
                 </div>
                 <div className="text-center">
                   <p className="text-3xl font-bold text-primary">274</p>
@@ -135,20 +147,29 @@ export default function Home() {
             Your Kitchen, Your Masterpiece
           </h2>
           <p className="text-lg mb-8 opacity-95 max-w-2xl mx-auto">
-            Join 145+ subscribers and discover new recipes, cooking techniques, and culinary inspiration every week.
+            Join 145+ subscribers and discover new recipes, cooking techniques,
+            and culinary inspiration every week.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/videos">
-              <Button variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              >
                 Watch Videos
               </Button>
             </Link>
+
             <a
               href="https://youtube.com/@specialtychefcookingwithma2783"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+              <Button
+                size="lg"
+                className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
+              >
                 Subscribe on YouTube
               </Button>
             </a>
