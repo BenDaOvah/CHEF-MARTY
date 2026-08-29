@@ -27,7 +27,7 @@ export default function Header() {
                 className="h-10 w-10"
               />
               <span className="text-2xl font-bold text-primary" style={{ fontFamily: "Playfair Display" }}>
-                SC Marty
+                Specialty Chef Marty
               </span>
             </div>
           </Link>
